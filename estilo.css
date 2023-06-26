@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .item {
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .slick-slide {
+    transition: all 0.5s ease;
+  }
+  
+  .slick-slide.slick-active {
+    transform: scale(1.1);
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .item img:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (min-width: 768px) {
+    /* Estilos para tablet y escritorio */
+    .container {
+      width: 600px;
+      margin-top: 100px;
+    }
+    
+    .item {
+      padding: 20px;
+      font-size: 24px;
+    }
+  }
+  
